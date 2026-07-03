@@ -1,0 +1,53 @@
+name: Daily Shair Post
+
+on:
+  schedule:
+    # 09:00 Pakistan time (04:00 UTC) every day — adjust as you like
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}   # lets you trigger a post manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pillow
+
+      - name: Generate today's post
+        id: gen
+        run: |
+          python generate_post.py
+          # find the file that was just generated
+          IMG=$(ls -t output/post_*.png | head -1)
+          CAP=$(ls -t output/caption_*.txt | head -1)
+          echo "img=$IMG" >> "$GITHUB_OUTPUT"
+          echo "cap=$CAP" >> "$GITHUB_OUTPUT"
+
+      - name: Commit image so it has a public URL
+        run: |
+          git config user.name "shair-bot"
+          git config user.email "actions@github.com"
+          git add output/
+          git commit -m "Daily post $(date +%F)" || echo "nothing to commit"
+          git push
+
+      - name: Post to Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          CAPTION_FILE: ${{ steps.gen.outputs.cap }}
+        run: |
+          IMG_PATH="${{ steps.gen.outputs.img }}"
+          export IMAGE_URL="https://raw.githubusercontent.com/${{ github.repository }}/main/${IMG_PATH}"
+          python post_to_instagram.py
