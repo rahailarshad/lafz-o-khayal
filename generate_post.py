@@ -140,9 +140,10 @@ def render(poem, out_path):
     diamond(d, CX, y, 6, INK)
     d.line([CX + 30, y, CX + 120, y], fill=RED, width=2)
 
-    # Poet name
-    f_poet = font(46, 600)
-    text_center(d, "— " + poem["poet"] + " —", f_poet, RED, y + 34)
+   # Poet name (skipped if blank)
+    if poem.get("poet"):
+        f_poet = font(46, 600)
+        text_center(d, "— " + poem["poet"] + " —", f_poet, RED, y + 34)
 
     # Bottom branding
     f_brand = font(34, 560)
@@ -153,15 +154,16 @@ def render(poem, out_path):
     img.save(out_path)
     return out_path
 
-
 def make_caption(poem):
     lines = "\n".join(poem["lines"])
+    poet_line = f"— {poem['poet']}\n\n" if poem.get("poet") else ""
+    poet_tag = f"#{poem['poet'].split()[-1].lower()} " if poem.get("poet") else ""
     return (
         f"{lines}\n\n"
-        f"— {poem['poet']}\n\n"
+        f"{poet_line}"
         f"Meaning: {poem['meaning']}\n\n"
         f"#shayari #urdupoetry #hindipoetry #shairoshairee #rekhta "
-        f"#{poem['poet'].split()[-1].lower()} #poetry #lafzokhayal #sher #ghazal"
+        f"{poet_tag}#poetry #lafzokhayal #sher #ghazal"
     )
 
 
