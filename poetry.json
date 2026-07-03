@@ -1,0 +1,229 @@
+{
+  "poems": [
+    {
+      "id": 1,
+      "poet": "Mirza Ghalib",
+      "lines": [
+        "Hazaaron khwahishein aisi ke har khwahish pe dam nikle",
+        "Bahut nikle mere armaan lekin phir bhi kam nikle"
+      ],
+      "meaning": "A thousand desires, each worth dying for. Many were fulfilled, yet they still feel too few."
+    },
+    {
+      "id": 2,
+      "poet": "Mirza Ghalib",
+      "lines": [
+        "Dil-e-naadaan tujhe hua kya hai",
+        "Aakhir is dard ki dawa kya hai"
+      ],
+      "meaning": "O naive heart, what has happened to you? What, after all, is the cure for this pain?"
+    },
+    {
+      "id": 3,
+      "poet": "Mirza Ghalib",
+      "lines": [
+        "Ishq par zor nahin hai ye woh aatish 'Ghalib'",
+        "Ke lagaye na lage aur bujhaye na bane"
+      ],
+      "meaning": "Love obeys no command, Ghalib — it is a fire that cannot be lit at will, nor extinguished by effort."
+    },
+    {
+      "id": 4,
+      "poet": "Mirza Ghalib",
+      "lines": [
+        "Ye na thi hamari qismat ke visaal-e-yaar hota",
+        "Agar aur jeete rehte yahi intezaar hota"
+      ],
+      "meaning": "Union with the beloved was never my destiny. Had I lived longer, the wait would have simply gone on."
+    },
+    {
+      "id": 5,
+      "poet": "Mirza Ghalib",
+      "lines": [
+        "Hui muddat ke 'Ghalib' mar gaya par yaad aata hai",
+        "Woh har ik baat pe kehna ke yoon hota to kya hota"
+      ],
+      "meaning": "It has been long since Ghalib died, yet one remembers his way of asking at every turn: what if it had been so?"
+    },
+    {
+      "id": 6,
+      "poet": "Mirza Ghalib",
+      "lines": [
+        "Un ke dekhe se jo aa jaati hai munh par raunaq",
+        "Woh samajhte hain ke beemar ka haal achha hai"
+      ],
+      "meaning": "The glow that lights my face upon seeing them — they mistake it for a sign that the ailing one is well."
+    },
+    {
+      "id": 7,
+      "poet": "Mir Taqi Mir",
+      "lines": [
+        "Patta patta boota boota haal hamara jaane hai",
+        "Jaane na jaane gul hi na jaane baagh to saara jaane hai"
+      ],
+      "meaning": "Every leaf, every shrub knows my condition. Only the rose remains unaware, though the whole garden knows."
+    },
+    {
+      "id": 8,
+      "poet": "Mir Taqi Mir",
+      "lines": [
+        "Dekh to dil ke jaan se uthta hai",
+        "Ye dhuan sa kahan se uthta hai"
+      ],
+      "meaning": "Look — does it rise from the heart or from the soul itself? Where does this smoke-like ache come from?"
+    },
+    {
+      "id": 9,
+      "poet": "Mir Taqi Mir",
+      "lines": [
+        "Ishq ik 'Mir' bhaari patthar hai",
+        "Kab ye tujh naatavaan se uthta hai"
+      ],
+      "meaning": "Love, O Mir, is a heavy stone — how will one as frail as you ever lift it?"
+    },
+    {
+      "id": 10,
+      "poet": "Mir Taqi Mir",
+      "lines": [
+        "Hasti apni habaab ki si hai",
+        "Ye numaish saraab ki si hai"
+      ],
+      "meaning": "Our existence is like a bubble on water; this whole display is like a mirage."
+    },
+    {
+      "id": 11,
+      "poet": "Allama Iqbal",
+      "lines": [
+        "Khudi ko kar buland itna ke har taqdeer se pehle",
+        "Khuda bande se khud poochhe bata teri raza kya hai"
+      ],
+      "meaning": "Elevate your selfhood so high that before writing every destiny, God Himself asks: tell me, what is your wish?"
+    },
+    {
+      "id": 12,
+      "poet": "Allama Iqbal",
+      "lines": [
+        "Sitaron se aage jahan aur bhi hain",
+        "Abhi ishq ke imtihan aur bhi hain"
+      ],
+      "meaning": "Beyond the stars lie worlds yet unseen; love's trials are far from over."
+    },
+    {
+      "id": 13,
+      "poet": "Allama Iqbal",
+      "lines": [
+        "Nahin tera nasheman qasr-e-sultani ke gumbad par",
+        "Tu shaheen hai basera kar pahaadon ki chattanon mein"
+      ],
+      "meaning": "Your nest does not belong on the dome of royal palaces. You are a falcon — make your home on mountain cliffs."
+    },
+    {
+      "id": 14,
+      "poet": "Allama Iqbal",
+      "lines": [
+        "Acha hai dil ke saath rahe paasban-e-aql",
+        "Lekin kabhi kabhi ise tanha bhi chhod de"
+      ],
+      "meaning": "It is good that reason stands guard over the heart — but every now and then, leave the heart alone."
+    },
+    {
+      "id": 15,
+      "poet": "Daagh Dehlvi",
+      "lines": [
+        "Urdu hai jis ka naam hamin jaante hain 'Daagh'",
+        "Saare jahan mein dhoom hamari zabaan ki hai"
+      ],
+      "meaning": "The language called Urdu — we know it well, Daagh. Our tongue is celebrated across the whole world."
+    },
+    {
+      "id": 16,
+      "poet": "Daagh Dehlvi",
+      "lines": [
+        "Gazab kiya tere waade pe aitbaar kiya",
+        "Tamaam raat qayamat ka intezaar kiya"
+      ],
+      "meaning": "What a folly — I trusted your promise, and waited all night for a doomsday that never came."
+    },
+    {
+      "id": 17,
+      "poet": "Daagh Dehlvi",
+      "lines": [
+        "Tumhare khat mein naya ik salaam kis ka tha",
+        "Na tha raqeeb to aakhir woh naam kis ka tha"
+      ],
+      "meaning": "Whose new greeting was that in your letter? If not my rival's, then whose name was it, after all?"
+    },
+    {
+      "id": 18,
+      "poet": "Momin Khan Momin",
+      "lines": [
+        "Tum mere paas hote ho goya",
+        "Jab koi doosra nahin hota"
+      ],
+      "meaning": "You are with me, as it were, whenever no one else is."
+    },
+    {
+      "id": 19,
+      "poet": "Momin Khan Momin",
+      "lines": [
+        "Woh jo hum mein tum mein qaraar tha tumhein yaad ho ke na yaad ho",
+        "Wahi yaani waada nibaah ka tumhein yaad ho ke na yaad ho"
+      ],
+      "meaning": "That understanding between you and me — you may remember it or not. That very promise of faithfulness — you may remember it or not."
+    },
+    {
+      "id": 20,
+      "poet": "Ibrahim Zauq",
+      "lines": [
+        "Layi hayaat aaye qaza le chali chale",
+        "Apni khushi na aaye na apni khushi chale"
+      ],
+      "meaning": "Life brought us, so we came; death takes us, so we go. We neither came of our own will, nor leave by it."
+    },
+    {
+      "id": 21,
+      "poet": "Ibrahim Zauq",
+      "lines": [
+        "Ab to ghabra ke ye kehte hain ke mar jayenge",
+        "Mar ke bhi chain na paya to kidhar jayenge"
+      ],
+      "meaning": "In despair we say we shall simply die — but if there is no peace even in death, where shall we go?"
+    },
+    {
+      "id": 22,
+      "poet": "Amir Minai",
+      "lines": [
+        "Sarakti jaye hai rukh se naqaab aahista aahista",
+        "Nikalta aa raha hai aaftaab aahista aahista"
+      ],
+      "meaning": "The veil slips from the face, slowly, slowly — the sun emerges, slowly, slowly."
+    },
+    {
+      "id": 23,
+      "poet": "Khwaja Mir Dard",
+      "lines": [
+        "Tohmatein chand apne zimme dhar chale",
+        "Jis liye aaye the so hum kar chale"
+      ],
+      "meaning": "A few accusations we took upon ourselves and left; what we came to do, we did, and departed."
+    },
+    {
+      "id": 24,
+      "poet": "Mirza Ghalib",
+      "lines": [
+        "Ragon mein daudte phirne ke hum nahin qaail",
+        "Jab aankh hi se na tapka to phir lahu kya hai"
+      ],
+      "meaning": "Merely coursing through the veins does not impress me — if it never fell from the eye as tears, what kind of blood is it?"
+    },
+    {
+      "id": 25,
+      "poet": "Mir Taqi Mir",
+      "lines": [
+        "Le saans bhi aahista ke naazuk hai bahut kaam",
+        "Aafaaq ki is kaargah-e-sheesha-gari ka"
+      ],
+      "meaning": "Breathe softly, for delicate is the work of this glass-blower's workshop that is the universe."
+    }
+  ]
+}
